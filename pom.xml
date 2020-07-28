@@ -3,11 +3,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.simonsator</groupId>
-	<artifactId>BungeecordPartyAndFriends</artifactId>
+	<artifactId>BungeecordFriends</artifactId>
 	<version>1.0.80</version>
-	<name>BungeecordPartyAndFriends</name>
+	<name>BungeecordFriends</name>
 	<packaging>jar</packaging>
-	<description>BungeecordPartyAndFriends</description>
+	<description>BungeecordFriends</description>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
@@ -38,15 +38,11 @@
 					<relocations>
 						<relocation>
 							<pattern>org.bstats</pattern>
-							<shadedPattern>de.simonsator.partyandfriends</shadedPattern>
+							<shadedPattern>de.simonsator.bungeefriends</shadedPattern>
 						</relocation>
 						<relocation>
 							<pattern>com.mchange</pattern>
-							<shadedPattern>de.simonsator.partyandfriends.c3p0</shadedPattern>
-						</relocation>
-						<relocation>
-							<pattern>de.simonsator.updatechecker</pattern>
-							<shadedPattern>de.simonsator.partyandfriends.updatechecker</shadedPattern>
+							<shadedPattern>de.simonsator.bungeefriends.c3p0</shadedPattern>
 						</relocation>
 					</relocations>
 					<createDependencyReducedPom>false</createDependencyReducedPom>
@@ -106,11 +102,6 @@
 			<groupId>com.mchange</groupId>
 			<artifactId>c3p0</artifactId>
 			<version>0.9.5.5</version>
-		</dependency>
-		<dependency>
-			<groupId>de.simonsator</groupId>
-			<artifactId>UpdateChecker</artifactId>
-			<version>1.0.2</version>
 		</dependency>
 	</dependencies>
 </project>
