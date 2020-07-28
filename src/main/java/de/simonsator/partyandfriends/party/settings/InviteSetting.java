@@ -1,10 +1,9 @@
-package de.simonsator.bungeefriends.friends.settings.party;
+package de.simonsator.partyandfriends.party.settings;
 
-import de.simonsator.bungeefriends.api.SimpleSetting;
-import de.simonsator.bungeefriends.api.SimpleSetting;
-import de.simonsator.bungeefriends.api.pafplayers.OnlinePAFPlayer;
-import de.simonsator.bungeefriends.friends.commands.Friends;
-import de.simonsator.bungeefriends.main.Main;
+import de.simonsator.partyandfriends.api.SimpleSetting;
+import de.simonsator.partyandfriends.api.pafplayers.OnlinePAFPlayer;
+import de.simonsator.partyandfriends.friends.commands.Friends;
+import de.simonsator.partyandfriends.main.Main;
 
 import java.util.List;
 
